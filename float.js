@@ -61,7 +61,7 @@ ctx.arc(70, 80, 10, 0, 2 * Math.PI, false);
 ctx.fill();
 ctx.addHitRegion({id: 'square'});
 */
-//$('body').css('background-color',localStorage.getItem('bcolor'));
+$('body').css('background-color',localStorage.getItem('bcolor'));
 
 if(localStorage !== undefined) {
     console.log('localStorage available!');
