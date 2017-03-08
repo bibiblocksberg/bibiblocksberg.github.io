@@ -84,6 +84,6 @@ function changeBackground() {
 
 $('button').click(changeBackground);
   
-$('#load').className = "load hide";
+setTimeout(5000,function(){$('#load').className = "load hide";});
 }
 
