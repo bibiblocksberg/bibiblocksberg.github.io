@@ -83,5 +83,7 @@ function changeBackground() {
 
 
 $('button').click(changeBackground);
+  
+$('#load').className = "load hide";
 }
 
