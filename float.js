@@ -61,6 +61,7 @@ ctx.arc(70, 80, 10, 0, 2 * Math.PI, false);
 ctx.fill();
 ctx.addHitRegion({id: 'square'});
 */
+window.onload = function() {
 $('body').css('background-color',localStorage.getItem('bcolor'));
 
 if(localStorage !== undefined) {
@@ -80,7 +81,7 @@ function changeBackground() {
       
 }
 
-console.log(document.documentMode);
-$('button').click(changeBackground);
 
-console.log(document.documentMode);
+$('button').click(changeBackground);
+}
+
